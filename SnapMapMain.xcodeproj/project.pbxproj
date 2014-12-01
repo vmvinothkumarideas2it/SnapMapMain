@@ -18,6 +18,8 @@
 		5DAEC4541A2C464000DBF01F /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC44E1A2C464000DBF01F /* CompassViewController.m */; };
 		5DAEC4551A2C464000DBF01F /* ProfileMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4511A2C464000DBF01F /* ProfileMeViewController.m */; };
 		5DAEC4581A2C47D400DBF01F /* DealsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */; };
+		5DAEC45F1A2C806800DBF01F /* DealsDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC45E1A2C806800DBF01F /* DealsDetailTableViewCell.m */; };
+		5DAEC4661A2C809D00DBF01F /* DealsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4651A2C809D00DBF01F /* DealsDetailModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		5DAEC4511A2C464000DBF01F /* ProfileMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileMeViewController.m; sourceTree = "<group>"; };
 		5DAEC4561A2C47D400DBF01F /* DealsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DealsListCollectionViewCell.h; path = Views/DealsListCollectionViewCell.h; sourceTree = "<group>"; };
 		5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DealsListCollectionViewCell.m; path = Views/DealsListCollectionViewCell.m; sourceTree = "<group>"; };
+		5DAEC45D1A2C806800DBF01F /* DealsDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DealsDetailTableViewCell.h; path = Views/DealsDetailTableViewCell.h; sourceTree = "<group>"; };
+		5DAEC45E1A2C806800DBF01F /* DealsDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DealsDetailTableViewCell.m; path = Views/DealsDetailTableViewCell.m; sourceTree = "<group>"; };
+		5DAEC4641A2C809D00DBF01F /* DealsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsDetailModel.h; sourceTree = "<group>"; };
+		5DAEC4651A2C809D00DBF01F /* DealsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsDetailModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 				5DAEC4471A2C464000DBF01F /* BrowseDealsViewController.h */,
 				5DAEC4481A2C464000DBF01F /* BrowseDealsViewController.m */,
 				5DAEC4591A2C47DD00DBF01F /* Views */,
+				5DAEC4631A2C809D00DBF01F /* Model */,
 			);
 			path = "Browse Deals";
 			sourceTree = "<group>";
@@ -189,10 +196,21 @@
 		5DAEC4591A2C47DD00DBF01F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5DAEC45D1A2C806800DBF01F /* DealsDetailTableViewCell.h */,
+				5DAEC45E1A2C806800DBF01F /* DealsDetailTableViewCell.m */,
 				5DAEC4561A2C47D400DBF01F /* DealsListCollectionViewCell.h */,
 				5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		5DAEC4631A2C809D00DBF01F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC4641A2C809D00DBF01F /* DealsDetailModel.h */,
+				5DAEC4651A2C809D00DBF01F /* DealsDetailModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +317,8 @@
 				5DAEC40F1A2C3B6700DBF01F /* AppDelegate.m in Sources */,
 				5DAEC4541A2C464000DBF01F /* CompassViewController.m in Sources */,
 				5DAEC4521A2C464000DBF01F /* BrowseDealsViewController.m in Sources */,
+				5DAEC45F1A2C806800DBF01F /* DealsDetailTableViewCell.m in Sources */,
+				5DAEC4661A2C809D00DBF01F /* DealsDetailModel.m in Sources */,
 				5DAEC4581A2C47D400DBF01F /* DealsListCollectionViewCell.m in Sources */,
 				5DAEC4551A2C464000DBF01F /* ProfileMeViewController.m in Sources */,
 				5DAEC40C1A2C3B6700DBF01F /* main.m in Sources */,
@@ -494,6 +514,7 @@
 				5DAEC42E1A2C3B6800DBF01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DAEC42F1A2C3B6800DBF01F /* Build configuration list for PBXNativeTarget "SnapMapMainTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +523,7 @@
 				5DAEC4311A2C3B6800DBF01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
