@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Vinoth Kumar. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "CompassViewController.h"
 
-@interface FirstViewController ()
+@interface CompassViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation CompassViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

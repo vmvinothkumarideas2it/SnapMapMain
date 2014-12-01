@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		5DAEC40C1A2C3B6700DBF01F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC40B1A2C3B6700DBF01F /* main.m */; };
 		5DAEC40F1A2C3B6700DBF01F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC40E1A2C3B6700DBF01F /* AppDelegate.m */; };
-		5DAEC4121A2C3B6700DBF01F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4111A2C3B6700DBF01F /* FirstViewController.m */; };
-		5DAEC4151A2C3B6700DBF01F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4141A2C3B6700DBF01F /* SecondViewController.m */; };
 		5DAEC4181A2C3B6700DBF01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAEC4161A2C3B6700DBF01F /* Main.storyboard */; };
 		5DAEC41A1A2C3B6700DBF01F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAEC4191A2C3B6700DBF01F /* Images.xcassets */; };
 		5DAEC41D1A2C3B6700DBF01F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAEC41B1A2C3B6700DBF01F /* LaunchScreen.xib */; };
 		5DAEC4291A2C3B6800DBF01F /* SnapMapMainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4281A2C3B6800DBF01F /* SnapMapMainTests.m */; };
+		5DAEC4521A2C464000DBF01F /* BrowseDealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4481A2C464000DBF01F /* BrowseDealsViewController.m */; };
+		5DAEC4531A2C464000DBF01F /* CheckinDealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC44B1A2C464000DBF01F /* CheckinDealsViewController.m */; };
+		5DAEC4541A2C464000DBF01F /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC44E1A2C464000DBF01F /* CompassViewController.m */; };
+		5DAEC4551A2C464000DBF01F /* ProfileMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4511A2C464000DBF01F /* ProfileMeViewController.m */; };
+		5DAEC4581A2C47D400DBF01F /* DealsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +36,22 @@
 		5DAEC40B1A2C3B6700DBF01F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DAEC40D1A2C3B6700DBF01F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DAEC40E1A2C3B6700DBF01F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DAEC4101A2C3B6700DBF01F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5DAEC4111A2C3B6700DBF01F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5DAEC4131A2C3B6700DBF01F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5DAEC4141A2C3B6700DBF01F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5DAEC4171A2C3B6700DBF01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DAEC4191A2C3B6700DBF01F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DAEC41C1A2C3B6700DBF01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5DAEC4221A2C3B6800DBF01F /* SnapMapMainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapMapMainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAEC4271A2C3B6800DBF01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAEC4281A2C3B6800DBF01F /* SnapMapMainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapMapMainTests.m; sourceTree = "<group>"; };
+		5DAEC4471A2C464000DBF01F /* BrowseDealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseDealsViewController.h; sourceTree = "<group>"; };
+		5DAEC4481A2C464000DBF01F /* BrowseDealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseDealsViewController.m; sourceTree = "<group>"; };
+		5DAEC44A1A2C464000DBF01F /* CheckinDealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinDealsViewController.h; sourceTree = "<group>"; };
+		5DAEC44B1A2C464000DBF01F /* CheckinDealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinDealsViewController.m; sourceTree = "<group>"; };
+		5DAEC44D1A2C464000DBF01F /* CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
+		5DAEC44E1A2C464000DBF01F /* CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
+		5DAEC4501A2C464000DBF01F /* ProfileMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileMeViewController.h; sourceTree = "<group>"; };
+		5DAEC4511A2C464000DBF01F /* ProfileMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileMeViewController.m; sourceTree = "<group>"; };
+		5DAEC4561A2C47D400DBF01F /* DealsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DealsListCollectionViewCell.h; path = Views/DealsListCollectionViewCell.h; sourceTree = "<group>"; };
+		5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DealsListCollectionViewCell.m; path = Views/DealsListCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +95,8 @@
 			children = (
 				5DAEC40D1A2C3B6700DBF01F /* AppDelegate.h */,
 				5DAEC40E1A2C3B6700DBF01F /* AppDelegate.m */,
-				5DAEC4101A2C3B6700DBF01F /* FirstViewController.h */,
-				5DAEC4111A2C3B6700DBF01F /* FirstViewController.m */,
-				5DAEC4131A2C3B6700DBF01F /* SecondViewController.h */,
-				5DAEC4141A2C3B6700DBF01F /* SecondViewController.m */,
 				5DAEC4161A2C3B6700DBF01F /* Main.storyboard */,
+				5DAEC4441A2C464000DBF01F /* UI */,
 				5DAEC4191A2C3B6700DBF01F /* Images.xcassets */,
 				5DAEC41B1A2C3B6700DBF01F /* LaunchScreen.xib */,
 				5DAEC4091A2C3B6700DBF01F /* Supporting Files */,
@@ -122,6 +128,71 @@
 				5DAEC4271A2C3B6800DBF01F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DAEC4441A2C464000DBF01F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC4451A2C464000DBF01F /* Tab Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5DAEC4451A2C464000DBF01F /* Tab Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC44C1A2C464000DBF01F /* Compass Map */,
+				5DAEC4461A2C464000DBF01F /* Browse Deals */,
+				5DAEC44F1A2C464000DBF01F /* Profile AboutMe */,
+				5DAEC4491A2C464000DBF01F /* Checkin Deals */,
+			);
+			path = "Tab Controllers";
+			sourceTree = "<group>";
+		};
+		5DAEC4461A2C464000DBF01F /* Browse Deals */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC4471A2C464000DBF01F /* BrowseDealsViewController.h */,
+				5DAEC4481A2C464000DBF01F /* BrowseDealsViewController.m */,
+				5DAEC4591A2C47DD00DBF01F /* Views */,
+			);
+			path = "Browse Deals";
+			sourceTree = "<group>";
+		};
+		5DAEC4491A2C464000DBF01F /* Checkin Deals */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC44A1A2C464000DBF01F /* CheckinDealsViewController.h */,
+				5DAEC44B1A2C464000DBF01F /* CheckinDealsViewController.m */,
+			);
+			path = "Checkin Deals";
+			sourceTree = "<group>";
+		};
+		5DAEC44C1A2C464000DBF01F /* Compass Map */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC44D1A2C464000DBF01F /* CompassViewController.h */,
+				5DAEC44E1A2C464000DBF01F /* CompassViewController.m */,
+			);
+			path = "Compass Map";
+			sourceTree = "<group>";
+		};
+		5DAEC44F1A2C464000DBF01F /* Profile AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC4501A2C464000DBF01F /* ProfileMeViewController.h */,
+				5DAEC4511A2C464000DBF01F /* ProfileMeViewController.m */,
+			);
+			path = "Profile AboutMe";
+			sourceTree = "<group>";
+		};
+		5DAEC4591A2C47DD00DBF01F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEC4561A2C47D400DBF01F /* DealsListCollectionViewCell.h */,
+				5DAEC4571A2C47D400DBF01F /* DealsListCollectionViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAEC4151A2C3B6700DBF01F /* SecondViewController.m in Sources */,
+				5DAEC4531A2C464000DBF01F /* CheckinDealsViewController.m in Sources */,
 				5DAEC40F1A2C3B6700DBF01F /* AppDelegate.m in Sources */,
-				5DAEC4121A2C3B6700DBF01F /* FirstViewController.m in Sources */,
+				5DAEC4541A2C464000DBF01F /* CompassViewController.m in Sources */,
+				5DAEC4521A2C464000DBF01F /* BrowseDealsViewController.m in Sources */,
+				5DAEC4581A2C47D400DBF01F /* DealsListCollectionViewCell.m in Sources */,
+				5DAEC4551A2C464000DBF01F /* ProfileMeViewController.m in Sources */,
 				5DAEC40C1A2C3B6700DBF01F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
