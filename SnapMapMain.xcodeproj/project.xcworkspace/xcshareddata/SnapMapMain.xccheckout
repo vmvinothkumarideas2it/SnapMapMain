@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA2D1E71-642A-40E2-86D3-85C0866428EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SnapMapMain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82767EF91B79850B3BF67019E64510A5D5232D38</key>
+		<string>https://github.com/vmvinothkumarideas2it/SnapMapMain.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SnapMapMain.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82767EF91B79850B3BF67019E64510A5D5232D38</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vmvinothkumarideas2it/SnapMapMain.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82767EF91B79850B3BF67019E64510A5D5232D38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82767EF91B79850B3BF67019E64510A5D5232D38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SnapMapMain</string>
+		</dict>
+	</array>
+</dict>
+</plist>
